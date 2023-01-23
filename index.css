@@ -1,0 +1,65 @@
+header{
+    color:aliceblue;
+    background-color: rgb(8, 162, 111);
+    display: block;
+}
+.btn:hover{
+    letter-spacing: 4px;
+    transition: all 0.4s ease-in;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+}
+nav a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px;
+}
+img{
+    width: 320px;
+    height: 320px;
+}
+#profile{
+    padding: 0 20px;
+}
+.prof{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.prof img:hover{
+    width: 320px;
+    height: 320px;
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+@media (max-width: 768px) {
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+#main #profile{
+    display:block;
+}
+import os
+import openai
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:40px;
+}
+footer{
+    padding: 40px;
+    background-color: rgb(8, 162, 111);
+    color:antiquewhite;
+}
